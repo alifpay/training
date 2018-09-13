@@ -1,0 +1,11 @@
+1. What is Hash?
+2. Type of Hashes
+3. What is crypto (cryptography)?
+4. crypto vs hash
+5. checksum 
+6. password hashing (best fast hash algorithms)
+7. SSL
+8. encryption / decryption 
+9. algorithms for encryption and decryption
+10. Encoding
+11. hashtable
