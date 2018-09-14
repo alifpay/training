@@ -9,3 +9,27 @@
 9. algorithms for encryption and decryption
 10. Encoding
 11. hashtable
+
+
+check server ssl 
+openssl s_client -showcerts -connect localhost:10443
+
+ssl cert for server
+openssl req \
+    -x509 \
+    -nodes \
+    -newkey rsa:2048 \
+    -keyout server.key \
+    -out server.crt \
+    -days 1000 \
+    -subj "/C=TJ/ST=Dushanbe/L=Dushanbe/O=Alif Capital/OU=IT Department/CN=*"
+
+ssl cert for client
+openssl req \
+    -x509 \
+    -nodes \
+    -newkey rsa:2048 \
+    -keyout client.key \
+    -out client.crt \
+    -days 730 \
+    -subj "/C=TJ/ST=Dushanbe/L=Dushanbe/O=Alif Capital/OU=IT Department/CN=*"
