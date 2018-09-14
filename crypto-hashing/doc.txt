@@ -6,7 +6,7 @@
 6. password hashing (best fast hash algorithms)
 7. SSL
 8. encryption / decryption 
-9. algorithms for encryption and decryption
+9. algorithms for encryption and decryption AES(https://golang.org/pkg/crypto/aes/)
 10. Encoding
 11. hashtable
 
