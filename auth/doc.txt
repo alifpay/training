@@ -1,0 +1,7 @@
+1. Authentication
+2. Authorization
+3. Basic authentication
+4. Form-based authentication
+5. JWT
+6. OAuth
+7. OTP 
