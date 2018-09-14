@@ -55,7 +55,6 @@ func main() {
 	log.Fatal(srv.ListenAndServeTLS("server.crt", "server.key"))
 }
 
-//get and delete card
 func index(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("response from :10443"))
 }
