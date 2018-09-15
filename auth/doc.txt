@@ -4,4 +4,14 @@
 4. Form-based authentication
 5. JWT
 6. OAuth
+
 7. OTP 
+  a. SMS OTP 
+  b. OTP technology is based on a shared secret or seed that is stored on the authentication device and the authentication backend.                     This method ensures authentication by generating a one-time passcode based on the token’s secret.
+
+8. Sessions and cookies
+9. Fingerprint
+10. Face ID
+11. USB tokens and smart cards
+12. Two-factor authentication
+13. 
