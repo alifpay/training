@@ -8,7 +8,7 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 )
-
+//middleware of basic auth
 func basicAuth(h httprouter.Handle) httprouter.Handle {
 	return func(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
 		// Get the Basic Authentication credentials
@@ -24,7 +24,7 @@ func basicAuth(h httprouter.Handle) httprouter.Handle {
 		}
 	}
 }
-
+//middleware of role of user
 func roleMD(h httprouter.Handle, roleb string) httprouter.Handle {
 	return func(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
 		fmt.Println(time.Now(), "role")
@@ -37,7 +37,7 @@ func roleMD(h httprouter.Handle, roleb string) httprouter.Handle {
 		}
 	}
 }
-
+// middleware of jwt
 func jwtAuth(h httprouter.Handle) httprouter.Handle {
 	return func(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
 		token := r.Header.Get("Token")
