@@ -25,3 +25,4 @@
 12. Two-factor authentication
 13. https://spin.atomicobject.com/2016/05/30/openid-oauth-saml/
 https://habr.com/company/mailru/blog/115163/
+14. Mutual authentication
