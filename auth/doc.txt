@@ -1,8 +1,11 @@
 
 
-    1. Authentication is the process of verifying who you are. When you log on to a PC with a user name and password you are authenticating.
+    1. Authentication is the process of verifying who you are. 
+    When you log on to a PC with a user name and password you are authenticating.
 
-    2. Authorization is the process of verifying that you have access to something. Gaining access to a resource (e.g. directory on a hard disk) because the permissions configured on it allow you access is authorization.
+    2. Authorization is the process of verifying that you have access 
+    to something. Gaining access to a resource (e.g. directory on a hard disk) 
+    because the permissions configured on it allow you access is authorization.
 
 3. Basic authentication
 4. Form-based authentication
@@ -11,7 +14,9 @@
 
 7. OTP 
   a. SMS OTP 
-  b. OTP technology is based on a shared secret or seed that is stored on the authentication device and the authentication backend.                     This method ensures authentication by generating a one-time passcode based on the token’s secret.
+  b. OTP technology is based on a shared secret or seed 
+  that is stored on the authentication device and the authentication backend.                     
+  This method ensures authentication by generating a one-time passcode based on the token’s secret.
 
 8. Sessions and cookies
 9. Fingerprint
