@@ -11,6 +11,7 @@
 4. Form-based authentication
 5. JWT
 6. OAuth OpenID
+https://github.com/ory/hydra
 
 7. OTP 
   a. SMS OTP 
