@@ -1,0 +1,23 @@
+1. Software Testing
+2. Manual and automated
+
+3. Types of Software Testing: List of 100 Different Testing Types 
+https://www.guru99.com/types-of-software-testing.html
+
+4. Go Best Practices — Testing
+5. Why is Software Testing Important?
+-In April 2015, Bloomberg terminal in London crashed due to software 
+glitch affected more than 300,000 traders on financial markets. 
+It forced the government to postpone a 3bn pound debt sale.
+
+-Starbucks was forced to close about 60 percent of stores in the U.S and Canada 
+due to software failure in its POS system. 
+At one point store served coffee for free as they unable to process the transaction.
+
+-Some of the Amazon’s third party retailers saw their product 
+price is reduced to 1p due to a software glitch. They were left with heavy losses.
+
+-Vulnerability in Window 10. This bug enables users to escape 
+from security sandboxes through a flaw in the win32k system.
+
+-China Airlines Airbus A300 crashed due to a software bug on April 26, 1994, killing 264 innocent live
