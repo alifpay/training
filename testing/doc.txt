@@ -1,4 +1,6 @@
 1. Software Testing and benchmark
+https://stackimpact.com/blog/practical-golang-benchmarks/
+https://golang.org/pkg/testing/
 2. Manual and automated
 
 3. Types of Software Testing: List of 100 Different Testing Types 
