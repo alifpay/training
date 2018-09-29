@@ -16,9 +16,25 @@ func TestBeginningOfMonth(t *testing.T) {
 }
 
 func TestSomoniToInt(t *testing.T) {
-	res := SomoniToInt("25,36,58")
-	if res != 2536 {
-		t.Fatalf("%v", res)
+	for k, tt := range []struct {
+		inp    string
+		Result int64
+	}{
+		{inp: "1254", Result: 125400},
+		{inp: "1,254", Result: 125},
+		{inp: "12.54", Result: 1254},
+		{inp: "125,4", Result: 12540},
+		{inp: "1254,", Result: 125400},
+		{inp: "1254.", Result: 125400},
+		{inp: "1254.0", Result: 125400},
+		{inp: "0.01", Result: 1},
+		{inp: "01.03", Result: 103},
+		{inp: "-5.03", Result: -503},
+		{inp: "-5.3", Result: -530},
+	} {
+		if res := SomoniToInt(tt.inp); res != tt.Result {
+			t.Fatalf("%d - expected diram of %v to be %d, got %d\n", k, tt.inp, tt.Result, res)
+		}
 	}
 }
 
