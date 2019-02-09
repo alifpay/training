@@ -2,6 +2,7 @@ package gurl
 
 import (
 	"bytes"
+	"context"
 	"crypto/tls"
 	"encoding/json"
 	"errors"
@@ -50,6 +51,45 @@ func (r *Req) Send() error {
 	}
 
 	resp, err := netClient.Do(req)
+	if err != nil {
+		return err
+	}
+	defer resp.Body.Close()
+	if resp.Body == nil {
+		return errors.New("empty_http_response")
+	}
+
+	r.RespData, err = ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
+//SendCtx http client request
+func (r *Req) SendCtx(ctx context.Context) error {
+
+	req, err := http.NewRequest(r.Method, r.URL, bytes.NewReader(r.PostData))
+	if err != nil {
+		return err
+	}
+
+	req.Header.Set("Content-Type", "application/json")
+	for k, v := range r.Headers {
+		req.Header.Set(k, v)
+	}
+
+	var netClient = &http.Client{
+		Timeout: time.Second * 30,
+	}
+
+	if r.InSecure {
+		netClient.Transport = &http.Transport{
+			TLSClientConfig: &tls.Config{InsecureSkipVerify: true}, // ignore expired SSL certificates
+		}
+	}
+	reqCtx := req.WithContext(ctx)
+	resp, err := netClient.Do(reqCtx)
 	if err != nil {
 		return err
 	}
