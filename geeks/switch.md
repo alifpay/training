@@ -1,4 +1,4 @@
-**switch vs if else
+**switch vs if else**
 
 A switch statement is usually more efficient than a set of nested ifs. Deciding whether to use if-then-else statements or a switch statement is based on readability and the expression that the statement is testing.
 
