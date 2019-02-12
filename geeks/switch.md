@@ -25,3 +25,5 @@ as it has to evaluate every previous condition first.
 Clarity in readability: A switch looks much cleaner when you have to combine cases. Ifs  are quite vulnerable 
 to errors too. Missing an else statement can land you up in havoc. Adding/removing labels is also easier 
 with a switch and makes your code significantly easier to change and maintain.
+
+https://github.com/golang/go/wiki/Switch
