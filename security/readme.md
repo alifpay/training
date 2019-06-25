@@ -28,3 +28,6 @@ https://www.acunetix.com/blog/category/web-security-zone/
 
 -A Typo Can Make You an Administrator
 https://www.acunetix.com/blog/web-security-zone/typo-can-make-you-administrator/
+
+-Write testing, unit testing etc.
+https://www.guru99.com/what-is-security-testing.html
