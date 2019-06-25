@@ -34,7 +34,12 @@ https://www.guru99.com/white-box-testing.html
 
 -Code review
 Code review по-человечески https://habr.com/ru/post/340550/
-Code review https://habr.com/ru/company/badoo/blog/413965/
-Code Review — Полное руководство https://medium.com/nuances-of-programming/code-review-%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-5e5341f670
 
+Code review https://habr.com/ru/company/badoo/blog/413965/
+
+Code Review — Полное руководство https://medium.com/nuances-of-programming/code-review-%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-5e5341f670
+in English
 https://www.freecodecamp.org/news/code-review-the-ultimate-guide-aa45c358bbf5/
+
+-Security Testing
+https://www.atlassian.com/blog/archives/13-steps-to-learn-perfect-security-testing-in-your-org
