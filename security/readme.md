@@ -43,3 +43,18 @@ https://www.freecodecamp.org/news/code-review-the-ultimate-guide-aa45c358bbf5/
 
 -Security Testing
 https://www.atlassian.com/blog/archives/13-steps-to-learn-perfect-security-testing-in-your-org
+
+List of Training
+
+1. Injection (SQL Injection,  Unsanitized Shell Input, Insecure Uploads)
+2. Broken Authentication and Session Management
+3. Sensitive Data Exposure
+4. Broken Access Control
+5. Security Misconfiguration
+6. Cross-Site Scripting (XSS)
+7. Insecure Deserialization
+8. Using Components With Known Vulnerabilities
+9. Insufficient Logging and Monitoring
+10. Underprotected APIs
+11. Cross-Site Request Forgery (CSRF)
+12. Unvalidated Redirects and Forwards
