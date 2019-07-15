@@ -58,3 +58,6 @@ List of Training
 10. Underprotected APIs
 11. Cross-Site Request Forgery (CSRF)
 12. Unvalidated Redirects and Forwards
+
+https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project
+
